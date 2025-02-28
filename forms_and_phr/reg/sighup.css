@@ -1,0 +1,36 @@
+#login_form{
+    display: flex;
+    justify-content: center;
+}
+#login_form > div{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid;
+    padding: 20px 20px 40px;
+}
+input{
+    width: 400px;
+    font-size: 18px;
+    padding: 8px 12px;
+}
+button{
+    width: 150px;
+    font-size: 18px;
+    padding: 8px 16px;
+}
+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color: red;
+    font-weight: bold;
+
+}
