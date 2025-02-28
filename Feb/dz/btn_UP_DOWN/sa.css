@@ -1,0 +1,20 @@
+#btn,.Up{
+    display: flex;
+}
+.Up{
+    transform: rotate(-90deg);
+}
+#btn{
+    margin: 0;
+    padding: 0;
+    border: 1px solid;
+    border-radius: 2px;
+}
+#Up2{
+    cursor: pointer;
+    border-left: 1px solid black;
+}
+#Up1, #Up2{
+    cursor: pointer;
+    border-top: 1px solid black;
+}

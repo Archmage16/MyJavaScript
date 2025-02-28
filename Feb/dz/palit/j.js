@@ -1,0 +1,40 @@
+let b1 = document.querySelector('#b1');
+let b2 = document.querySelector('#b2');
+let b3 = document.querySelector('#b3');
+let b4 = document.querySelector('#b4');
+let b5 = document.querySelector('#b5');
+let b6 = document.querySelector('#b6');
+let b7 = document.querySelector('#b7');
+let b8 = document.querySelector('#b8');
+let b9 = document.querySelector('#b9');
+let b10 = document.querySelector('#b10');
+let b11 = document.querySelector('#b11');
+let b12 = document.querySelector('#b12');
+let b13 = document.querySelector('#b13');
+let b14 = document.querySelector('#b14');
+let b15 = document.querySelector('#b15');
+let b16 = document.querySelector('#b16');
+let b17 = document.querySelector('#b17');
+let b18 = document.querySelector('#b18');
+
+let text = document.querySelector('#Text');
+
+b1.addEventListener('click', function() { text.style.color = 'black';});
+b2.addEventListener('click', function() { text.style.color = 'grey';});
+b3.addEventListener('click', function() { text.style.color = 'brown';});
+b4.addEventListener('click', function() { text.style.color = 'red';});
+b5.addEventListener('click', function() { text.style.color = 'yellow';});
+b6.addEventListener('click', function() { text.style.color = 'green';});
+b7.addEventListener('click', function() { text.style.color = 'skyblue';});
+b8.addEventListener('click', function() { text.style.color = 'blue';});
+b9.addEventListener('click', function() { text.style.color = 'purple';});
+
+b10.addEventListener('click', function() { text.style.color = 'white';});
+b11.addEventListener('click', function() { text.style.color = 'lightgrey';});
+b12.addEventListener('click', function() { text.style.color = 'chocolate';});
+b13.addEventListener('click', function() { text.style.color = 'pink';});
+b14.addEventListener('click', function() { text.style.color = 'lightyellow';});
+b15.addEventListener('click', function() { text.style.color = 'limegreen';});
+b16.addEventListener('click', function() { text.style.color = 'lightskyblue';});
+b17.addEventListener('click', function() { text.style.color = 'darkcyan';});
+b18.addEventListener('click', function() { text.style.color = 'thistle';});

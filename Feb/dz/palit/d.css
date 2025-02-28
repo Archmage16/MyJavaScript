@@ -1,0 +1,11 @@
+button{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.palit{
+    background-color: blanchedalmond;
+}
+#Text{
+    font-size: 20px;
+}
