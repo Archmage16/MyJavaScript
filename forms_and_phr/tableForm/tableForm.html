@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tableForm.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <div class="df">
+                <div class="column">
+                    <label>Firstname:</label>
+                    <input type="text" name="First" id="firstname" placeholder="Firstname">
+                </div>
+                <div class="column">
+                    <label>Lastname:</label>
+                    <input type="text" name="Last" id="lastname" placeholder="Lastname">
+                </div>
+            </div>
+    
+            <div class="df_jc">
+                <div class="column">
+                    <label for="Birthday">Birthday</label>
+                    <input type="date" name="Birthday" id="birthday" placeholder="Birthday" value="Birthday">
+    
+                </div>
+                <div>
+                    <label>Gender: </label>
+                    <input type="radio" name="Gender" id="male" placeholder="male" value="Male">Male
+                    <input type="radio" name="Gender" id="female" placeholder="female" value="female">Female
+                </div>          
+            </div>
+    
+    
+            <div class="df">
+                <div class="column">
+                    <label>Country:</label>
+                    <input type="text" name="Country" id="country" placeholder="Country">
+                </div>
+                <div class="column">
+                    <label>City:</label>
+                    <input type="text" name="City" id="city" placeholder="City">
+                </div>
+            </div>
+    
+            <div class="">
+                <label for="">Skills: </label>
+                <input type="checkbox" name="skills" id="html" placeholder="HTML" value="HTML">HTML
+                <input type="checkbox" name="skills" id="css" placeholder="CSS" value="CSS">CSS
+                <input type="checkbox" name="skills" id="js" placeholder="JS" value="JS">JS
+                <input type="checkbox" name="skills" id="php" placeholder="PHP" value="PHP">PHP
+                <input type="checkbox" name="skills" id="cpp" placeholder="Cpp" value="Cpp">Cpp
+                <input type="checkbox" name="skills" id="java" placeholder="Java" value="Java">Java
+                <input type="checkbox" name="skills" id="cs" placeholder="Cs" value="C#">C#
+            </div>
+            <button type="submit">Save</b|tton>
+        </form>
+    </div>
+    <div id="table"></div>
+
+
+    <script src="./tableForm.js"></script>
+</body>
+</html>
